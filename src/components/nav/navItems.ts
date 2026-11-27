@@ -9,16 +9,17 @@ export interface NavItem {
 
 export function getNavItems(tours: Tour[]) {
   return [
-    {
-      label: "Tours",
-      tours: tours.map((tour) => ({
-        href: `/tours/${tour.slug.current}`,
-        label: tour.title,
-      })),
-      tailoredMade: { href: "/tailored-walks", label: "Tailored made" },
-    },
+    // {
+    //   label: "Tours",
+    //   tours: tours.map((tour) => ({
+    //     href: `/tours/${tour.slug.current}`,
+    //     label: tour.title,
+    //   })),
+    //   tailoredMade: { href: "/tailored-walks", label: "Tailored made" },
+    // },
+    { href: "/travel-assistant", label: "Travel Assistant" },
     { href: "/about", label: "About" },
-    { href: "/faq", label: "FAQ" },
-    { href: "/about/#seoulphotoworkshops", label: "Photography Workshops" },
+    // { href: "/faq", label: "FAQ" },
+    // { href: "/about/#seoulphotoworkshops", label: "Photography Workshops" },
   ];
 }

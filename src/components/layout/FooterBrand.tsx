@@ -17,9 +17,7 @@ const FooterBrand = () => {
         className="flex justify-center h-15 w-auto lg:h-23"
       />
       <div>
-        <p className="text-center text-lg">
-          Seoul · Curiosity · Walking tours · Stories
-        </p>
+        <p className="text-center text-lg">Seoul · Curiosity · Stories</p>
         <div className="flex justify-center gap-4 my-6">
           {socialLinks.map(({ icon: Icon, label, href }) => (
             <a

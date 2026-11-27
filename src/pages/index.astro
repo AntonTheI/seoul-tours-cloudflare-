@@ -14,14 +14,14 @@ import { getAllTours } from "@/lib/api";
 const tours = await getAllTours();
 ---
 
-<BaseLayout title="Seoul Walking Tours">
+<BaseLayout title="Korea travel assistant">
   <Hero />
-  <AboutTours />
-  <Introduction />
-  <TourCard tours={tours} client:visible />
-  <TailoredWalks />
   <TravelAssistant />
-  <Testimonials client:load />
+  <!-- <AboutTours /> -->
+  <Introduction />
+  <!-- <TourCard tours={tours} client:visible /> -->
+  <!-- <TailoredWalks /> -->
+  <!-- <Testimonials client:load /> -->
   <SocialMediaGrid />
   <Substack />
 </BaseLayout>

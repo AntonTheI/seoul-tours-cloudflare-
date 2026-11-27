@@ -64,7 +64,7 @@ const TravelAssistant = () => {
         </div>
         <div className="flex justify-center self-center mt-6 w-full lg:w-md">
           <a
-            href="/concierge"
+            href="/travel-assistant"
             className="flex justify-center w-full bg-accent-orange-23 px-14 py-4 rounded-full text-natural-light font-semibold"
           >
             Walk me through your plans

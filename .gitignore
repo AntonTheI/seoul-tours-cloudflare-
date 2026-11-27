@@ -26,6 +26,9 @@ pnpm-debug.log*
 # images
 # public/assets/images
 
-# Claude 
+# wrangler local state
+.wrangler/
+
+# Claude
 CLAUDE.md
 .claude/
